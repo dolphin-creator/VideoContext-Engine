@@ -516,6 +516,7 @@ python VideoContextEngine_v3.19.py
 
 The tool will detect the latest video URL in the chat, call `POST /api/v1/analyze` with `response_format=text`, then inject the full report back into the conversation and ask the LLM to summarize or answer your question.
 
+Note that the tool is calibrated to a maximum of 900 seconds, but this can be modified within the tool.
 ---
 
 ### 🗣️ Language & prompts
